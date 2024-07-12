@@ -1,0 +1,25 @@
+{
+  "name": "solid-quickstart",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cypress": "^13.0.0",
+    "solid-start-netlify": "^0.3.11",
+    "typescript": "^4.8.3",
+    "vite": "^3.2.10"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.13.6",
+    "solid-js": "^1.8.17",
+    "solid-start": "^0.1.0",
+    "undici": "^5.28.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
